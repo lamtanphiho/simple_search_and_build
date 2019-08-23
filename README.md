@@ -5,11 +5,11 @@ Simple example search and build to binary file
 ```node index.js```
 
 ## Or you can run binary file 
-``./tokoin-simple-test``
+``./example``
 
 ## note
-If got issue permission when run tokoin-simple-test file please run: 
+If got issue permission when run example file please run: 
 
-``chmod 755 ./tokoin-simple-test``
+``chmod 755 ./example``
 
 then run again !
