@@ -6,8 +6,10 @@ Simple example search and build to binary file
 
 ## Or you can run binary file 
 ``./tokoin-simple-test``
+
 ## note
 If got issue permission when run tokoin-simple-test file please run: 
 
 ``chmod 755 ./tokoin-simple-test``
+
 then run again !
