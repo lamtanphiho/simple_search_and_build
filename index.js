@@ -72,7 +72,9 @@ standard_input.on('data', (data) => {
 });
 
 const search = () => {
-    const results = resource[type-1].data.filter(x => x[term].toString() == value)
+    const results = resource[type-1].data.filter(x => {
+        if(x[term]) return x[term].toString() == value
+    })
 
     if(results.length > 0) {
         results.map(result => {
